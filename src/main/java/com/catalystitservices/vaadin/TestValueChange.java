@@ -117,7 +117,6 @@ public class TestValueChange extends Application {
 				field.setImmediate( true );
 				
 				if ( "name".equals( propertyId ) ) {
-					System.out.println("Setting: name");
 					field.addListener( new FieldEvents.BlurListener() {
 						
 						/**
